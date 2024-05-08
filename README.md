@@ -1,5 +1,6 @@
 # A light-weight multiscale adaptive network for single image dehazing 
-![Uploading image.png…]()
+![image](https://github.com/weiyunsong/UMA-Net/assets/115675554/d01c5f02-191f-49c5-b62d-fb82b528e9e1)
+
 
 
 ## 1.create conda environment.
