@@ -8,3 +8,16 @@ pip install  opencv-python pytorch-msssim==0.2.1 timm==0.5.4 tqdm thop fvcore te
 
 
 2.Clone repository.
+git clone https://github.com/weiyunsong/UMA-Net.git
+
+3 training and test
+
+For example, 
+
+traning
+
+python train.py --model MA-2 --model_name MA.py --save_dir ./result --datasets_dir ./data --train_dataset ITS --valid_dataset SOTS --exp_config indoor --exp_name training
+
+test
+
+python test.py --model MA-2 --model_weight ./result/RESIDE-IN/MA-2/MA-2.pth --data_dir ./data --save_dir ./result --dataset SOTS-- subset indoor
